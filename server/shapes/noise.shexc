@@ -4,6 +4,6 @@ PREFIX schema: <http://www.w3.org/2000/01/rdf-schema#>
 
 <$> CLOSED {
     a ldbcvoc:Noise?;
-    ldbcvoc:hasCreator @<{:Profile}>;
+    ldbcvoc:hasCreator IRI;
     ldbcvoc:noise xsd:string;
 }

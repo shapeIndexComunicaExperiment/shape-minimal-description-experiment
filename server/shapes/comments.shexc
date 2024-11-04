@@ -11,11 +11,7 @@ PREFIX schema: <http://www.w3.org/2000/01/rdf-schema#>
     ldbcvoc:content xsd:string?;
     ldbcvoc:lenght xsd:int ;
     ldbcvoc:hasTag IRI *;
-    (
-        ldbcvoc:replyOf @<{:Post}> *;
-        |
-        ldbcvoc:replyOf @<{:Comment}> *;
-    );
+    ldbcvoc:replyOf IRI *;
     ldbcvoc:isLocatedIn IRI ;
-    ldbcvoc:hasCreator @<{:Profile}> ;
+    ldbcvoc:hasCreator IRI ;
 }

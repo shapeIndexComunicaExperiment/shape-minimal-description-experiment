@@ -481,12 +481,7 @@
               "./shapes/profile.shexc"
             ],
             "directory": "profile",
-            "name": "Profile",
-            "dependencies": [
-              "knows",
-              "city",
-              "likes"
-            ]
+            "name": "Profile"
           },
           "noise": {
             "shapes": [
@@ -494,27 +489,6 @@
             ],
             "directory": "noise",
             "name": "Noise"
-          },
-          "knows": {
-            "shapes": [
-              "./shapes/knows.shexc"
-            ],
-            "directory": "knows",
-            "name": "Knows"
-          },
-          "likes": {
-            "shapes": [
-              "./shapes/likes.shexc"
-            ],
-            "directory": "likes",
-            "name": "Likes"
-          },
-          "city": {
-            "shapes": [
-              "./shapes/city.shexc"
-            ],
-            "directory": "city",
-            "name": "City"
           }
         },
         "resourceTypesOfDatasets": [
